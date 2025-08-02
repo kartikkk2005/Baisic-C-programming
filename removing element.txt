@@ -11,3 +11,4 @@ int removeElement(int *nums, int numsSize, int val) {
             nums[i - count] = nums[i];
     return (numsSize - count);
 }
+
